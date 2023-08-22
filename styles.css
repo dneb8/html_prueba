@@ -1,0 +1,134 @@
+body {
+  background-image: url('Cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: -14px;
+  margin-right: -56px;
+  font-size: 20px;
+}
+
+.nav a {
+  display: inline-block;
+  width: 48%;
+  padding: 15px 0;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;
+  float: left;
+  margin: 0 4px;
+}
+
+.nav a:hover {
+  background-color: #777;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+section {
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2
+{color: rgb(162, 66, 130);}
+
+.nav2 {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: -14px;
+  margin-right: -56px;
+  font-size: 20px;
+}
+
+.nav2 a {
+  display: inline-block;
+  width: 48%;
+  padding: 15px 0;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;
+  float: left;
+  margin: 0 4px;
+}
+
+.nav2 a:hover {
+  background-color: #777;
+}
+
+.content h1{
+  text-align: center;
+}
+.content {
+  color: rgb(222, 193, 212);
+  font-size: 25px;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #aba3a362;
+  border: none; 
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea,
+form select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+form select{
+width: 98%;
+}
+
+form button {
+  display: block; 
+  margin: 0 auto; 
+  padding: 15px 30px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+form button:hover {
+  background-color: #777;
+}
+
+label[for="interesa"],label[for="genero-m"], label[for="genero-f"] {
+  font-size: 20px;
+  color: #030000;
+}
+
+
